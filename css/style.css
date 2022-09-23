@@ -48,20 +48,20 @@ body {
   grid-column: 2 / 3;
 }
 
-.upper-top {
+.top-top {
   height: 15%;
   background-color: blue;
   display: flex;
   justify-content: space-between;
 }
 
-.lcd-top {
+.mid-top {
   height: 70%;
   background-color: orange;
   display: flex;
 }
 
-.lower-top {
+.bot-top {
   height: 15%;
   background-color: red;
   display: flex;
@@ -123,4 +123,28 @@ body {
 .gbasp-logo {
   background-color: purple;
   height: 12.75%;
+}
+
+.top-bot {
+  background-color: red;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid-bot {
+  background-color: rgb(18, 219, 196);
+  height: 40%;
+}
+
+.bot-bot {
+  background-color: rgb(179, 18, 219);
+  height: 40%;
+}
+
+.lght-btn {
+  background-color: rgb(149, 255, 0);
+  height: 2.5vw;
+  width: 2.5vw;
 }

@@ -131,6 +131,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 43%;
 }
 
 .mid-bot {
@@ -147,4 +148,20 @@ body {
   background-color: rgb(149, 255, 0);
   height: 2.5vw;
   width: 2.5vw;
+}
+
+.dsply-lghts {
+  margin-top: 8%;
+  display: grid;
+  gap: 40%;
+}
+
+.dsply-lght {
+  background-color: gray;
+  width: 0.75vw;
+  height: 1vh;
+}
+
+#empty-display-lght {
+  background-color: red;
 }

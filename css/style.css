@@ -5,8 +5,32 @@ body {
 .container {
   display: grid;
   height: 100vh;
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 8fr 1fr 8fr 1fr;
+}
+
+.top {
+  background-color: black;
+  border-radius: 7%;
+  grid-row: 2 /3;
+  grid-column: 2 / 3;
+}
+
+.mid {
+  background-color: grey;
+  width: 95%;
+  /* Used margin left for now, will look into aligning it to centre with no margin later */
+  margin-left: 2.5%;
+  border-radius: 15%;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.bot {
+  background-color: black;
+  border-radius: 7%;
+  grid-row: 4 /5;
+  grid-column: 2 / 3;
 }

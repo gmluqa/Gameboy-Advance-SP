@@ -122,7 +122,7 @@ body {
 
 .gbasp-logo {
   background-color: purple;
-  height: 12.75%;
+  height: 3.6vh;
 }
 
 .top-bot {
@@ -137,10 +137,11 @@ body {
 .mid-bot {
   background-color: rgb(18, 219, 196);
   height: 40%;
+  display: flex;
 }
 
 .bot-bot {
-  background-color: rgb(179, 18, 219);
+  background-color: rgb(225, 255, 0);
   height: 40%;
 }
 
@@ -164,4 +165,39 @@ body {
 
 #empty-display-lght {
   background-color: red;
+}
+
+.mid-bot-pillar-thin {
+  background-color: orange;
+  display: flex;
+  width: 10%;
+}
+
+.mid-bot-pillar-wide {
+  display: flex;
+  width: 40%;
+}
+
+.bot-bot-pores {
+  height: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.bot-bot-buttons {
+  background-color: brown;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.bot-bot-pore-section {
+  background-color: white;
+  width: 16.665%;
+}
+
+.bot-bot-buttons-section {
+  background-color: black;
+  width: 25%;
 }

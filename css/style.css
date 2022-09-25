@@ -179,7 +179,16 @@ body {
 
 .mid-bot-pillar-wide {
   display: flex;
-  width: 40%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.dpad {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
 }
 
 .bot-bot-pores {

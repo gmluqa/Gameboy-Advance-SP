@@ -52,7 +52,7 @@ body {
   height: 15%;
   background-color: blue;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .mid-top {
@@ -65,7 +65,15 @@ body {
   height: 15%;
   background-color: red;
   display: flex;
+  justify-content: center;
+}
+
+.top-top-buttons {
+  display: flex;
+  width: 87.5%;
+  background-color: yellow;
   justify-content: space-between;
+  align-items: center;
 }
 
 .gummy-ball {
@@ -73,7 +81,6 @@ body {
   width: 2vw;
   background-color: red;
   border-radius: 100%;
-  margin-top: 3%;
 }
 
 .indent-ball {
@@ -81,23 +88,6 @@ body {
   width: 1.5vw;
   background-color: rgb(4, 255, 0);
   border-radius: 100%;
-  margin-top: 3%;
-}
-
-#ball-tl {
-  margin-left: 5%;
-}
-
-#ball-tr {
-  margin-right: 5%;
-}
-
-#ball-ll {
-  margin-left: 5%;
-}
-
-#ball-lr {
-  margin-right: 5%;
 }
 
 .screen {
@@ -122,7 +112,7 @@ body {
 
 .gbasp-logo {
   background-color: purple;
-  height: 3.6vh;
+  height: 20%;
 }
 
 .top-bot {
@@ -214,4 +204,12 @@ body {
 .bot-bot-buttons-section {
   background-color: black;
   width: 25%;
+}
+
+.bot-top-buttons {
+  display: flex;
+  width: 87.5%;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
 }

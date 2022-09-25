@@ -109,12 +109,13 @@ body {
 }
 
 .actual-lcd {
-  background-color: rgb(25, 205, 88);
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
   height: 80%;
   width: 80%;
+  display: flex;
+  justify-items: center;
 }
 
 .gbasp-logo {

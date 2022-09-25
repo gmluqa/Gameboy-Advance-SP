@@ -19,7 +19,9 @@
         </div>
         <div class="mid-top">
           <div class="screen">
-            <div class="actual-lcd"></div>
+            <div class="actual-lcd">
+              <video src="img/gba-intro.mp4" height="100%" width="100%"></video>
+            </div>
             <div class="gbasp-logo">
               <img src="/img/logo.svg" alt="" height="100%" width="50%" />
             </div>
@@ -148,7 +150,7 @@
                       const pressMe = document.getElementById("pressMe");
 
                       pressMe.addEventListener("click", function (e) {
-                        console.log("dogs");
+                        document.querySelector("video").play();
                       });
                     </script>
                   </div>

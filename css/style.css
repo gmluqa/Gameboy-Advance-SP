@@ -187,7 +187,11 @@ body {
 }
 
 .dpad {
-  background-color: black;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
   height: 100%;
   width: 100%;
   border-radius: 100%;
@@ -238,4 +242,46 @@ body {
   height: 40%;
   width: 100%;
   gap: 25%;
+}
+
+.select-btn {
+  display: grid;
+  justify-items: center;
+}
+
+.select-text {
+  font-size: 55%;
+  color: gray;
+}
+
+.actual-select-btn {
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  height: 3vh;
+  width: 3vh;
+  border-radius: 100%;
+}
+
+.start-btn {
+  display: grid;
+  justify-items: center;
+}
+
+.start-text {
+  font-size: 55%;
+  color: grey;
+}
+
+.actual-start-btn {
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  height: 3vh;
+  width: 3vh;
+  border-radius: 100%;
 }

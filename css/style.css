@@ -167,7 +167,7 @@ body {
   height: 1vh;
 }
 
-#empty-display-lght {
+.empty-display-lght {
   background-color: red;
 }
 

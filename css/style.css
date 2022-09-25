@@ -307,3 +307,43 @@ body {
   display: grid;
   gap: 60%;
 }
+
+.a-b-setcion {
+  height: 45%;
+  width: 90%;
+  background-color: black;
+  transform: rotate(160deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  border-radius: 40%;
+}
+
+.actual-a-button {
+  background-color: gray;
+  height: 4vh;
+  width: 4vh;
+  border-radius: 100%;
+  transform: rotate(200deg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 3vh;
+  color: rgb(57, 53, 53);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.actual-b-button {
+  background-color: grey;
+  height: 4vh;
+  width: 4vh;
+  border-radius: 100%;
+  transform: rotate(200deg);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 3vh;
+  color: rgb(57, 53, 53);
+  font-family: "Courier New", Courier, monospace;
+}

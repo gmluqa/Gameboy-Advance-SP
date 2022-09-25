@@ -28,12 +28,14 @@ body {
     rgb(50, 50, 50) 0%,
     rgb(0, 0, 0) 99.4%
   );
+  height: 100%;
   width: 95%;
-  /* Used margin left for now, will look into aligning it to centre with no margin later */
   margin-left: 2.5%;
-  border-radius: 15%;
+  border-radius: 20% 20% 20% 20%;
   grid-row: 3/4;
   grid-column: 2/3;
+  display: flex;
+  align-items: center;
 }
 
 .bot {
@@ -346,4 +348,26 @@ body {
   font-size: 3vh;
   color: rgb(57, 53, 53);
   font-family: "Courier New", Courier, monospace;
+}
+
+.vl {
+  border-left: solid rgb(0, 0, 0);
+  height: 90%;
+  width: 0.1%;
+}
+
+#vl-1 {
+  margin-left: 10%;
+}
+
+#vl-2 {
+  margin-left: 40%;
+}
+
+#vl-3 {
+  margin-left: 30%;
+}
+
+#vl-4 {
+  margin-left: 5%;
 }
